@@ -8,6 +8,10 @@ body {
     max-width: 1024px;
 }
 
+a {
+    cursor: pointer;
+}
+
 nav {
     margin-top: 20px;
 }
@@ -102,20 +106,6 @@ footer {
     
     input, select {
         width: 100%;
-    }
-
-    .logo {
-        height: 40px;
-        width: auto;
-    }
-
-    h2 {
-        font-size: 22px;
-        margin-bottom: 20px;
-    }
-
-    .ca-text {
-        font-size: 18px;
     }
 
 } 
