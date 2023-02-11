@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+
 
 body {
     margin: 0px auto;
@@ -51,7 +52,7 @@ h1 {
 .hero-section {
     display: grid;
     grid-template-columns: 60% 40%;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 
@@ -86,10 +87,10 @@ footer {
         margin-top: 100px;
     }
 
-    .logo {
+    /* .logo {
         height: 40px;
         width: auto;
-    }
+    } */
 
     h1 {
         font-size: 35px; 
