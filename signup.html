@@ -15,21 +15,21 @@
         <img src="./images/kashpadi-logo.png" class="logo"/>
     </nav>
 
-    <div>
+    <div class="ca-parent">
         <h2> Create account </h2>
         <div class="ca-text"> Be the first to experience our launch! Sign up for our waitlist and get notified as soon as we grant access to new users.</div>
     </div>
 
-    <form>
+    <form name="Waitlist" method="POST" data-netlify="true">
         
         <label> Name </label>
-        <input type="text"/>
+        <input type="text" name="name" required/>
 
         <label> Email Address </label>
-        <input type="text"/>
+        <input type="text" name="name" required/>
 
         <label> Which of these best describes you? </label>
-        <select id="profession" name="occupation">
+        <select id="profession" name="occupation" name="name" required>
             <option value="Event Planner"> Event Planner </option>
             <option value="Club Owner"> Club Owner </option>
             <option value="Entrepreneur"> Entrepreneur </option>
@@ -40,6 +40,14 @@
         <label> Phone Number (Optional) </label>
         <input type="number"/>
 
+        <button type="submit" class="submit"> Sign up </button>
+
     </form>
+
+    <footer>
+        <span> Made with </span>
+        <img src="./images/love.png" class="love"/>
+        <span> KashPadi Technologies</span>
+    </footer>
 </body>
 </html>

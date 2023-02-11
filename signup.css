@@ -7,8 +7,12 @@ body {
     max-width: 1024px;
 }
 
+nav {
+    margin-top: 20px;
+}
+
 .logo {
-    height: 100px;
+    height: 50px;
     width: auto;
 }
 
@@ -17,17 +21,71 @@ input {
     border: 2px solid gray;
     border-radius: 5px;
     font-size: 18px;
-    margin: 20px 0px;
+    margin: 5px 0px;
+    height:30px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+select {
+    margin: 5px 0px;
+    margin-bottom: 40px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 40px;
+    width: 400px;
+    padding: 0px 10px;
 }
 
 form input, form label {
     display: block;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px;
+}
 
+.ca-parent {
+    margin-top: 20px;
 }
 
 .ca-text {
-    
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.submit {
+    background: #1BE078;
+    border: none;
+    padding: 10px 40px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+.love {
+    width: 30px;
+    margin: 0px 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }

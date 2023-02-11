@@ -7,8 +7,12 @@ body {
     max-width: 1024px;
 }
 
+nav {
+    margin-top: 20px;
+}
+
 .logo {
-    height: 100px;
+    height: 50px;
     width: auto;
 }
 
@@ -37,11 +41,13 @@ h1 {
     font-weight: 600;
     border-radius: 10px;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .hero-section {
     display: grid;
     grid-template-columns: 60% 40%;
+    margin-top: 30px;
 
 }
 
